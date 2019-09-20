@@ -1,0 +1,24 @@
+@import '../../colors.scss';
+
+section.color {
+    background-color: $color-contrast;
+}
+
+.color__title {
+    background-color: $primary-color;
+    padding: 20px 0px;
+    h1 {
+        text-align: center;
+        color: #fff;
+        margin: 0px;
+    }
+}
+
+.color__items {
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 50px 0px;
+    width: 100%;
+    max-width: 970px;
+    margin: 0px auto;
+}

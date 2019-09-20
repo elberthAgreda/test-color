@@ -1,0 +1,22 @@
+<section class="flex fullCenter login">
+  <mat-card class="login__card">
+      <h1>Colors App</h1>
+      <img mat-card-image src="assets/img/person.svg" alt="Photo of a Shiba Inu">
+      <mat-card-content>
+        <form class="login__form">
+
+          <mat-form-field>
+            <input matInput placeholder="Usuario" type="text">
+          </mat-form-field>
+          <mat-form-field>
+            <input matInput placeholder="Contraseña" type="password">
+          </mat-form-field>
+
+        </form>
+      </mat-card-content>
+      <mat-card-actions>
+        <button color="primary" type="button" (click)="onAuthentication()" mat-raised-button>Ingresar</button>
+        <button color="accent" type="button" (click)="onRegister()" mat-raised-button>Registrar</button>
+      </mat-card-actions>
+  </mat-card>
+</section>

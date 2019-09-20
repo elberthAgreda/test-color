@@ -1,0 +1,9 @@
+<div *ngFor="let color of colors" 
+    class="flex fullCenter color__item" 
+    (click)="clipBoardColor(color.color)"
+    matRipple
+    [style.backgroundColor]="color.color">
+    <span class="color__year">{{color.year}}</span>
+    {{color.name}}<br>{{color.color}}
+    <span class="color__panthon">{{color.pantone_value}}</span>
+</div>

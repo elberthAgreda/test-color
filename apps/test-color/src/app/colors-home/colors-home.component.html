@@ -1,0 +1,18 @@
+<section class="color">
+
+    <div class="color__title">
+        <h1>Colores</h1>
+    </div>
+    
+    <mat-paginator [length]="length"
+        [pageSize]="pageSize"
+        hidePageSize="true"
+        (page)="paginatorColors($event.pageIndex)">
+    </mat-paginator>
+
+    <test-color-color-item
+        class="flex color__items"
+        [colors]="colors">
+    </test-color-color-item>
+
+</section>
