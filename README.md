@@ -16,6 +16,13 @@ Aplicativo que permite consultar los colores de la API de reqres.in
   Para ingresar puede usar las credenciales que desee.
 </p>
 
+<p>Se crea el proyecto como <b>Mono repositorio</b> con el fin de agregar todas las Apps que interactuan con el diseño al proyecto.</p>
+
+
+<hr>
+<hr>
+<hr>
+
 
 This project was generated using [Nx](https://nx.dev).
 
